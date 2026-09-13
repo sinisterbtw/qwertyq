@@ -1,0 +1,12 @@
+number = int(input("Введите четырехзначное число: "))
+
+a = number // 1000
+b = (number // 100) % 10
+c = (number // 10) % 10
+d = number % 10
+
+first = a * 10 + b
+second = c * 10 + d
+
+print("Первое число:", first)
+print("Второе число:", second)
